@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    background-color: rgb(110, 142, 5, 0.813);
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: nowrap;
+
+}
+
+.titulo{
+    color: rgb(31, 37, 18);
+    font-weight: 15px;
+}
+.contenedor{
+    
+    width: 56vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.casillas{
+    width: 5vw;
+    height: 5vh;
+    border: 1px solid rgb(31, 37, 18);
+}
+
+.objetivo{
+    background-color: green;
+}
+
+.player1{
+    background-color: orange;
+}
+.player2{
+    background-color: chocolate;
+}
